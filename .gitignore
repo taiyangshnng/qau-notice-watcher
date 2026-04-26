@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.deps/
+.deps_local/
+.pip-tmp/
+.env
+.pytest_cache/
+*.log
+data/*.sqlite-*

@@ -1,0 +1,111 @@
+{
+  "started_at": "2026-04-26T13:13:07",
+  "finished_at": "2026-04-26T13:13:50",
+  "init_mode": false,
+  "preview_mode": true,
+  "total_channels": 9,
+  "successful_channels": 9,
+  "total_new": 95,
+  "initialized_count": 0,
+  "channels": [
+    {
+      "id": "qau_main_notices",
+      "name": "学校官网-通知公告",
+      "url": "https://www.qau.edu.cn/channel/tongzhi",
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
+      "new_count": 10,
+      "error": null
+    },
+    {
+      "id": "youth_notices",
+      "name": "校团委-通知公告",
+      "url": "https://youth.qau.edu.cn/channel/tongzhigonggao",
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
+      "new_count": 10,
+      "error": null
+    },
+    {
+      "id": "youth_news",
+      "name": "校团委-团学信息",
+      "url": "https://youth.qau.edu.cn/channel/tuanxuexinxi",
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
+      "new_count": 10,
+      "error": null
+    },
+    {
+      "id": "jw_student",
+      "name": "教务处-学生通知",
+      "url": "https://jw.qau.edu.cn/channel/xstz",
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 12,
+      "new_count": 12,
+      "error": null
+    },
+    {
+      "id": "jw_teacher",
+      "name": "教务处-教师通知",
+      "url": "https://jw.qau.edu.cn/channel/jstz",
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 12,
+      "new_count": 12,
+      "error": null
+    },
+    {
+      "id": "hr_notices",
+      "name": "人事处-通知公告",
+      "url": "https://rsc.qau.edu.cn/channel/tzgg1",
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 11,
+      "new_count": 11,
+      "error": null
+    },
+    {
+      "id": "graduate_notices",
+      "name": "研究生处-通知公告",
+      "url": "https://grad.qau.edu.cn/channel/tongzhigonggao",
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
+      "new_count": 10,
+      "error": null
+    },
+    {
+      "id": "network_notices",
+      "name": "网络信息管理处-通知公告",
+      "url": "https://nc.qau.edu.cn/channel/tzgg",
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
+      "new_count": 10,
+      "error": null
+    },
+    {
+      "id": "student_affairs",
+      "name": "学生工作处-通知",
+      "url": "https://xgb.qau.edu.cn/channel/zxtz",
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
+      "new_count": 10,
+      "error": null
+    }
+  ]
+}
