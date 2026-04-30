@@ -1,11 +1,11 @@
 {
-  "started_at": "2026-04-29T01:30:53",
-  "finished_at": "2026-04-29T01:31:58",
+  "started_at": "2026-04-30T01:29:59",
+  "finished_at": "2026-04-30T01:31:10",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
   "successful_channels": 9,
-  "total_new": 6,
+  "total_new": 4,
   "initialized_count": 0,
   "channels": [
     {
@@ -27,7 +27,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     },
     {
@@ -104,7 +104,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     }
   ],
