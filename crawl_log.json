@@ -1,11 +1,11 @@
 {
-  "started_at": "2026-05-01T01:45:25",
-  "finished_at": "2026-05-01T01:47:03",
+  "started_at": "2026-05-02T01:23:21",
+  "finished_at": "2026-05-02T01:24:20",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
   "successful_channels": 9,
-  "total_new": 1,
+  "total_new": 0,
   "initialized_count": 0,
   "channels": [
     {
@@ -47,7 +47,7 @@
       "url": "https://jw.qau.edu.cn/channel/xstz",
       "status": "ok",
       "http_status": 200,
-      "attempts": 2,
+      "attempts": 1,
       "parsed_count": 12,
       "new_count": 0,
       "error": null
@@ -60,7 +60,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 12,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     },
     {
@@ -69,7 +69,7 @@
       "url": "https://rsc.qau.edu.cn/channel/tzgg1",
       "status": "ok",
       "http_status": 200,
-      "attempts": 2,
+      "attempts": 1,
       "parsed_count": 11,
       "new_count": 0,
       "error": null
@@ -80,7 +80,7 @@
       "url": "https://grad.qau.edu.cn/channel/tongzhigonggao",
       "status": "ok",
       "http_status": 200,
-      "attempts": 2,
+      "attempts": 1,
       "parsed_count": 10,
       "new_count": 0,
       "error": null
@@ -111,6 +111,6 @@
   "mail": {
     "enabled": false,
     "sent": false,
-    "error": "SMTP settings are incomplete; skipped email notification."
+    "error": null
   }
 }
