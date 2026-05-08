@@ -1,6 +1,6 @@
 # qau-notice-watcher
 
-青岛农业大学公开通知频道每日监控器。项目每天低频抓取多个官方列表页，筛选新增通知，写入 SQLite 去重库，生成 `daily.md` 与 `crawl_log.json`，并可在有新增通知时发送邮件。
+青岛农业大学公开通知频道每日监控器。项目每天低频抓取多个官方列表页，筛选新增通知，写入 SQLite 去重库，生成 `daily.md` 与 `crawl_log.json`，并可在每次正常运行后发送邮件。
 
 ## 监控频道
 
@@ -54,7 +54,7 @@ python main.py
 python main.py --preview
 ```
 
-如果有新增通知但暂时不想发邮件，可以运行：
+如果本次运行不想发邮件，可以运行：
 
 ```bash
 python main.py --no-mail
@@ -73,7 +73,7 @@ python main.py --no-archive
 - 每天北京时间 8:00 自动运行
 - 支持在 Actions 页面手动运行
 - 安装依赖后执行 `python main.py`
-- 有新增通知且邮件配置完整时发送邮件
+- 邮件配置完整时，每次正常运行都会发送 `daily.md`
 - 每天额外保存一份 `reports/YYYY-MM-DD.md`
 - 如果 `daily.md`、`reports/`、`crawl_log.json`、`data/seen.sqlite` 有变化，自动提交回仓库
 
@@ -118,7 +118,7 @@ Settings -> Secrets and variables -> Actions -> New repository secret
 - 163 邮箱通常使用 `smtp.163.com`、端口 `465`、`SMTP_SSL=true`
 - Gmail 通常需要应用专用密码
 
-如果这些配置不完整，程序会跳过邮件发送，但爬虫和报告仍会正常运行。
+如果这些配置不完整，程序会跳过邮件发送，但爬虫和报告仍会正常运行。正常运行 `python main.py` 时，无论当天是否有新增通知，都会尝试发送 `daily.md`；初始化模式和预览模式不会发送邮件。
 
 ## 标签规则
 
