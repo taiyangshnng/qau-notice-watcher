@@ -25,10 +25,11 @@ def write_daily_report(
     notices: list[dict],
     path: str | Path = "daily.md",
     *,
+    archive_path: str | Path | None = None,
     init_mode: bool = False,
     preview_mode: bool = False,
     initialized_count: int = 0,
-) -> None:
+) -> Path | None:
     now = _now_beijing()
     grouped = _group_notices(notices)
     activity_count = sum(
@@ -65,7 +66,27 @@ def write_daily_report(
     else:
         _append_grouped_notices(lines, grouped)
 
-    Path(path).write_text("\n".join(lines), encoding="utf-8")
+    content = "\n".join(lines)
+    Path(path).write_text(content, encoding="utf-8")
+
+    if archive_path is None:
+        return None
+
+    archive = Path(archive_path)
+    archive.parent.mkdir(parents=True, exist_ok=True)
+    if archive.exists():
+        if not notices and not init_mode:
+            return archive
+        existing = archive.read_text(encoding="utf-8").rstrip()
+        archive.write_text(f"{existing}\n\n---\n\n{content}", encoding="utf-8")
+        return archive
+
+    archive.write_text(content, encoding="utf-8")
+    return archive
+
+
+def daily_report_archive_path(directory: str | Path = "reports") -> Path:
+    return Path(directory) / f"{_now_beijing().strftime('%Y-%m-%d')}.md"
 
 
 def write_crawl_log(log: dict, path: str | Path = "crawl_log.json") -> None:
