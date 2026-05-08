@@ -13,7 +13,7 @@ import requests
 from classifier import classify_notice
 from mailer import send_daily_email
 from parser import parse_notice_list
-from reporter import write_crawl_log, write_daily_report
+from reporter import daily_report_archive_path, write_crawl_log, write_daily_report
 from sites import SITES, SiteConfig
 from storage import NoticeStorage
 
@@ -91,9 +91,14 @@ def main() -> int:
         "channels": channel_logs,
     }
 
-    write_daily_report(
+    archive_path = None
+    if not args.preview and not args.no_archive:
+        archive_path = daily_report_archive_path(args.archive_dir)
+
+    written_archive = write_daily_report(
         new_notices,
         args.daily,
+        archive_path=archive_path,
         init_mode=args.init,
         preview_mode=args.preview,
         initialized_count=initialized_count,
@@ -103,6 +108,10 @@ def main() -> int:
         mail_log = send_daily_email(args.daily)
 
     log["mail"] = mail_log
+    log["reports"] = {
+        "latest": args.daily,
+        "archive": str(written_archive) if written_archive else None,
+    }
     write_crawl_log(log, args.log)
 
     mode = "preview" if args.preview else "init" if args.init else "normal"
@@ -191,8 +200,10 @@ def _parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--db", default="data/seen.sqlite", help="SQLite 去重库路径")
     parser.add_argument("--daily", default="daily.md", help="Markdown 摘要输出路径")
+    parser.add_argument("--archive-dir", default="reports", help="每日历史摘要保存目录")
     parser.add_argument("--log", default="crawl_log.json", help="抓取日志输出路径")
     parser.add_argument("--no-mail", action="store_true", help="即使有新增通知也不发送邮件")
+    parser.add_argument("--no-archive", action="store_true", help="不保存每日历史摘要")
     parser.add_argument(
         "--skip-sleep",
         action="store_true",
