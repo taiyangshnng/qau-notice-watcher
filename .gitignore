@@ -6,5 +6,6 @@ __pycache__/
 .pip-tmp/
 .env
 .pytest_cache/
+.test-tmp/
 *.log
 data/*.sqlite-*
