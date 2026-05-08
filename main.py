@@ -104,7 +104,7 @@ def main() -> int:
         initialized_count=initialized_count,
     )
 
-    if new_notices and not args.init and not args.preview and not args.no_mail:
+    if not args.init and not args.preview and not args.no_mail:
         mail_log = send_daily_email(args.daily)
 
     log["mail"] = mail_log
@@ -202,7 +202,7 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument("--daily", default="daily.md", help="Markdown 摘要输出路径")
     parser.add_argument("--archive-dir", default="reports", help="每日历史摘要保存目录")
     parser.add_argument("--log", default="crawl_log.json", help="抓取日志输出路径")
-    parser.add_argument("--no-mail", action="store_true", help="即使有新增通知也不发送邮件")
+    parser.add_argument("--no-mail", action="store_true", help="不发送邮件")
     parser.add_argument("--no-archive", action="store_true", help="不保存每日历史摘要")
     parser.add_argument(
         "--skip-sleep",
