@@ -38,6 +38,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add daily.md crawl_log.json data/seen.sqlite
+          git add daily.md crawl_log.json data/seen.sqlite reports/
           git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update QAU daily notices"
           git push
