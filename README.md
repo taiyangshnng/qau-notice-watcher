@@ -30,6 +30,7 @@ python main.py
 运行后会生成：
 
 - `daily.md`：本次新增通知摘要
+- `reports/YYYY-MM-DD.md`：按日期保存的历史摘要
 - `crawl_log.json`：每个频道的抓取状态、HTTP 状态码、解析数量、错误信息和邮件状态
 - `data/seen.sqlite`：已经见过的通知链接，用于去重
 
@@ -59,6 +60,12 @@ python main.py --preview
 python main.py --no-mail
 ```
 
+如果只想更新最新摘要、不保存历史文件，可以运行：
+
+```bash
+python main.py --no-archive
+```
+
 ## 自动运行
 
 `.github/workflows/daily.yml` 会：
@@ -67,13 +74,24 @@ python main.py --no-mail
 - 支持在 Actions 页面手动运行
 - 安装依赖后执行 `python main.py`
 - 有新增通知且邮件配置完整时发送邮件
-- 如果 `daily.md`、`crawl_log.json`、`data/seen.sqlite` 有变化，自动提交回仓库
+- 每天额外保存一份 `reports/YYYY-MM-DD.md`
+- 如果 `daily.md`、`reports/`、`crawl_log.json`、`data/seen.sqlite` 有变化，自动提交回仓库
 
 手动触发路径：
 
 ```text
 GitHub 仓库 -> Actions -> QAU Daily Notice Watcher -> Run workflow
 ```
+
+## 历史摘要规则
+
+`daily.md` 始终显示最近一次运行结果。`reports/YYYY-MM-DD.md` 用来保存当天历史摘要：
+
+- 当天第一次有新增通知时，写入当天历史文件
+- 同一天后续运行没有新增通知时，不覆盖当天历史文件
+- 同一天后续运行又发现新增通知时，追加到当天历史文件末尾，并用 `---` 分隔
+
+这样手动重复运行不会把已经保存的当天通知覆盖成“暂无新增通知”。
 
 ## 邮件推送
 
