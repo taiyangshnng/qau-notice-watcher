@@ -1,11 +1,11 @@
 {
-  "started_at": "2026-05-08T01:45:45",
-  "finished_at": "2026-05-08T01:46:52",
+  "started_at": "2026-05-09T01:29:11",
+  "finished_at": "2026-05-09T01:30:10",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
   "successful_channels": 9,
-  "total_new": 5,
+  "total_new": 4,
   "initialized_count": 0,
   "channels": [
     {
@@ -27,7 +27,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 0,
+      "new_count": 1,
       "error": null
     },
     {
@@ -82,7 +82,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     },
     {
@@ -104,13 +104,20 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 2,
+      "new_count": 1,
       "error": null
     }
   ],
   "mail": {
-    "enabled": false,
-    "sent": false,
-    "error": "SMTP settings are incomplete; skipped email notification."
+    "enabled": true,
+    "sent": true,
+    "error": null,
+    "recipients": [
+      "1305902151@qq.com"
+    ]
+  },
+  "reports": {
+    "latest": "daily.md",
+    "archive": "reports/2026-05-09.md"
   }
 }
