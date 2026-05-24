@@ -1,11 +1,11 @@
 {
-  "started_at": "2026-05-23T01:47:42",
-  "finished_at": "2026-05-23T01:49:07",
+  "started_at": "2026-05-24T01:54:02",
+  "finished_at": "2026-05-24T01:55:58",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
-  "successful_channels": 9,
-  "total_new": 4,
+  "successful_channels": 6,
+  "total_new": 0,
   "initialized_count": 0,
   "channels": [
     {
@@ -16,7 +16,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     },
     {
@@ -38,30 +38,30 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     },
     {
       "id": "jw_student",
       "name": "教务处-学生通知",
       "url": "https://jw.qau.edu.cn/channel/xstz",
-      "status": "ok",
-      "http_status": 200,
-      "attempts": 1,
-      "parsed_count": 12,
-      "new_count": 1,
-      "error": null
+      "status": "failed",
+      "http_status": null,
+      "attempts": 2,
+      "parsed_count": 0,
+      "new_count": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='jw.qau.edu.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "id": "jw_teacher",
       "name": "教务处-教师通知",
       "url": "https://jw.qau.edu.cn/channel/jstz",
-      "status": "ok",
-      "http_status": 200,
-      "attempts": 1,
-      "parsed_count": 12,
+      "status": "failed",
+      "http_status": null,
+      "attempts": 2,
+      "parsed_count": 0,
       "new_count": 0,
-      "error": null
+      "error": "ReadTimeout: HTTPSConnectionPool(host='jw.qau.edu.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "id": "hr_notices",
@@ -89,12 +89,12 @@
       "id": "network_notices",
       "name": "网络信息管理处-通知公告",
       "url": "https://nc.qau.edu.cn/channel/tzgg",
-      "status": "ok",
-      "http_status": 200,
-      "attempts": 1,
-      "parsed_count": 10,
+      "status": "failed",
+      "http_status": null,
+      "attempts": 2,
+      "parsed_count": 0,
       "new_count": 0,
-      "error": null
+      "error": "ReadTimeout: HTTPSConnectionPool(host='nc.qau.edu.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "id": "student_affairs",
@@ -104,7 +104,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     }
   ],
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-05-23.md"
+    "archive": "reports/2026-05-24.md"
   }
 }
