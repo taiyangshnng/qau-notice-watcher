@@ -1,11 +1,11 @@
 {
-  "started_at": "2026-06-02T02:11:04",
-  "finished_at": "2026-06-02T02:12:00",
+  "started_at": "2026-06-03T02:28:33",
+  "finished_at": "2026-06-03T02:29:46",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
   "successful_channels": 9,
-  "total_new": 5,
+  "total_new": 2,
   "initialized_count": 0,
   "channels": [
     {
@@ -16,7 +16,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 3,
+      "new_count": 0,
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     },
     {
@@ -60,7 +60,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 12,
-      "new_count": 1,
+      "new_count": 2,
       "error": null
     },
     {
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-06-02.md"
+    "archive": "reports/2026-06-03.md"
   }
 }
