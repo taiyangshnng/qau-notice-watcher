@@ -1,111 +1,111 @@
 {
-  "started_at": "2026-06-04T02:26:04",
-  "finished_at": "2026-06-04T02:29:55",
+  "started_at": "2026-06-05T02:00:21",
+  "finished_at": "2026-06-05T02:01:24",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
-  "successful_channels": 0,
-  "total_new": 0,
+  "successful_channels": 9,
+  "total_new": 9,
   "initialized_count": 0,
   "channels": [
     {
       "id": "qau_main_notices",
       "name": "学校官网-通知公告",
       "url": "https://www.qau.edu.cn/channel/tongzhi",
-      "status": "failed",
-      "http_status": null,
-      "attempts": 2,
-      "parsed_count": 0,
-      "new_count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='www.qau.edu.cn', port=443): Max retries exceeded with url: /channel/tongzhi (Caused by NameResolutionError(\"HTTPSConnection(host='www.qau.edu.cn', port=443): Failed to resolve 'www.qau.edu.cn' ([Errno -3] Temporary failure in name resolution)\"))"
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
+      "new_count": 2,
+      "error": null
     },
     {
       "id": "youth_notices",
       "name": "校团委-通知公告",
       "url": "https://youth.qau.edu.cn/channel/tongzhigonggao",
-      "status": "failed",
-      "http_status": null,
-      "attempts": 2,
-      "parsed_count": 0,
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
       "new_count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='youth.qau.edu.cn', port=443): Max retries exceeded with url: /channel/tongzhigonggao (Caused by NameResolutionError(\"HTTPSConnection(host='youth.qau.edu.cn', port=443): Failed to resolve 'youth.qau.edu.cn' ([Errno -3] Temporary failure in name resolution)\"))"
+      "error": null
     },
     {
       "id": "youth_news",
       "name": "校团委-团学信息",
       "url": "https://youth.qau.edu.cn/channel/tuanxuexinxi",
-      "status": "failed",
-      "http_status": null,
-      "attempts": 2,
-      "parsed_count": 0,
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
       "new_count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='youth.qau.edu.cn', port=443): Max retries exceeded with url: /channel/tuanxuexinxi (Caused by NameResolutionError(\"HTTPSConnection(host='youth.qau.edu.cn', port=443): Failed to resolve 'youth.qau.edu.cn' ([Errno -3] Temporary failure in name resolution)\"))"
+      "error": null
     },
     {
       "id": "jw_student",
       "name": "教务处-学生通知",
       "url": "https://jw.qau.edu.cn/channel/xstz",
-      "status": "failed",
-      "http_status": null,
-      "attempts": 2,
-      "parsed_count": 0,
-      "new_count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='jw.qau.edu.cn', port=443): Max retries exceeded with url: /channel/xstz (Caused by NameResolutionError(\"HTTPSConnection(host='jw.qau.edu.cn', port=443): Failed to resolve 'jw.qau.edu.cn' ([Errno -3] Temporary failure in name resolution)\"))"
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 12,
+      "new_count": 2,
+      "error": null
     },
     {
       "id": "jw_teacher",
       "name": "教务处-教师通知",
       "url": "https://jw.qau.edu.cn/channel/jstz",
-      "status": "failed",
-      "http_status": null,
-      "attempts": 2,
-      "parsed_count": 0,
-      "new_count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='jw.qau.edu.cn', port=443): Max retries exceeded with url: /channel/jstz (Caused by NameResolutionError(\"HTTPSConnection(host='jw.qau.edu.cn', port=443): Failed to resolve 'jw.qau.edu.cn' ([Errno -3] Temporary failure in name resolution)\"))"
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 12,
+      "new_count": 3,
+      "error": null
     },
     {
       "id": "hr_notices",
       "name": "人事处-通知公告",
       "url": "https://rsc.qau.edu.cn/channel/tzgg1",
-      "status": "failed",
-      "http_status": null,
-      "attempts": 2,
-      "parsed_count": 0,
-      "new_count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='rsc.qau.edu.cn', port=443): Max retries exceeded with url: /channel/tzgg1 (Caused by NameResolutionError(\"HTTPSConnection(host='rsc.qau.edu.cn', port=443): Failed to resolve 'rsc.qau.edu.cn' ([Errno -3] Temporary failure in name resolution)\"))"
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 11,
+      "new_count": 1,
+      "error": null
     },
     {
       "id": "graduate_notices",
       "name": "研究生处-通知公告",
       "url": "https://grad.qau.edu.cn/channel/tongzhigonggao",
-      "status": "failed",
-      "http_status": null,
-      "attempts": 2,
-      "parsed_count": 0,
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
       "new_count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='grad.qau.edu.cn', port=443): Max retries exceeded with url: /channel/tongzhigonggao (Caused by NameResolutionError(\"HTTPSConnection(host='grad.qau.edu.cn', port=443): Failed to resolve 'grad.qau.edu.cn' ([Errno -3] Temporary failure in name resolution)\"))"
+      "error": null
     },
     {
       "id": "network_notices",
       "name": "网络信息管理处-通知公告",
       "url": "https://nc.qau.edu.cn/channel/tzgg",
-      "status": "failed",
-      "http_status": null,
-      "attempts": 2,
-      "parsed_count": 0,
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
       "new_count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='nc.qau.edu.cn', port=443): Max retries exceeded with url: /channel/tzgg (Caused by NameResolutionError(\"HTTPSConnection(host='nc.qau.edu.cn', port=443): Failed to resolve 'nc.qau.edu.cn' ([Errno -3] Temporary failure in name resolution)\"))"
+      "error": null
     },
     {
       "id": "student_affairs",
       "name": "学生工作处-通知",
       "url": "https://xgb.qau.edu.cn/channel/zxtz",
-      "status": "failed",
-      "http_status": null,
-      "attempts": 2,
-      "parsed_count": 0,
-      "new_count": 0,
-      "error": "ConnectionError: HTTPSConnectionPool(host='xgb.qau.edu.cn', port=443): Max retries exceeded with url: /channel/zxtz (Caused by NameResolutionError(\"HTTPSConnection(host='xgb.qau.edu.cn', port=443): Failed to resolve 'xgb.qau.edu.cn' ([Errno -3] Temporary failure in name resolution)\"))"
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
+      "new_count": 1,
+      "error": null
     }
   ],
   "mail": {
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-06-04.md"
+    "archive": "reports/2026-06-05.md"
   }
 }
