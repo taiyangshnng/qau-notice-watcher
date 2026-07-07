@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-07-06T01:47:50",
-  "finished_at": "2026-07-06T01:49:29",
+  "started_at": "2026-07-07T01:45:21",
+  "finished_at": "2026-07-07T01:46:41",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
@@ -16,7 +16,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 2,
+      "new_count": 0,
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 0,
+      "new_count": 3,
       "error": null
     },
     {
@@ -60,7 +60,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 12,
-      "new_count": 3,
+      "new_count": 2,
       "error": null
     },
     {
@@ -71,7 +71,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 11,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     },
     {
@@ -104,7 +104,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 2,
       "error": null
     }
   ],
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-07-06.md"
+    "archive": "reports/2026-07-07.md"
   }
 }
