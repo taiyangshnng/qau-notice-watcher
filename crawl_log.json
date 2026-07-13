@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-07-12T01:19:14",
-  "finished_at": "2026-07-12T01:20:47",
+  "started_at": "2026-07-13T01:20:08",
+  "finished_at": "2026-07-13T01:21:33",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
@@ -81,7 +81,7 @@
       "status": "ok",
       "http_status": 200,
       "attempts": 1,
-      "parsed_count": 5,
+      "parsed_count": 9,
       "new_count": 0,
       "error": null
     },
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-07-12.md"
+    "archive": "reports/2026-07-13.md"
   }
 }
