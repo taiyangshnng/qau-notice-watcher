@@ -1,11 +1,11 @@
 {
-  "started_at": "2026-07-16T01:15:49",
-  "finished_at": "2026-07-16T01:17:04",
+  "started_at": "2026-07-17T01:19:37",
+  "finished_at": "2026-07-17T01:21:25",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
   "successful_channels": 9,
-  "total_new": 2,
+  "total_new": 1,
   "initialized_count": 0,
   "channels": [
     {
@@ -16,7 +16,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     },
     {
@@ -69,7 +69,7 @@
       "url": "https://rsc.qau.edu.cn/channel/tzgg1",
       "status": "ok",
       "http_status": 200,
-      "attempts": 1,
+      "attempts": 2,
       "parsed_count": 11,
       "new_count": 0,
       "error": null
@@ -82,7 +82,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 9,
-      "new_count": 0,
+      "new_count": 1,
       "error": null
     },
     {
@@ -104,7 +104,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     }
   ],
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-07-16.md"
+    "archive": "reports/2026-07-17.md"
   }
 }
