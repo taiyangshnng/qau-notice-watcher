@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-08-05T01:15:28",
-  "finished_at": "2026-08-05T01:17:04",
+  "started_at": "2026-08-06T01:12:57",
+  "finished_at": "2026-08-06T01:14:15",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
@@ -91,7 +91,7 @@
       "url": "https://nc.qau.edu.cn/channel/tzgg",
       "status": "ok",
       "http_status": 200,
-      "attempts": 1,
+      "attempts": 2,
       "parsed_count": 10,
       "new_count": 0,
       "error": null
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-08-05.md"
+    "archive": "reports/2026-08-06.md"
   }
 }
