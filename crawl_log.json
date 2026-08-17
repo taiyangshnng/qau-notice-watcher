@@ -1,10 +1,10 @@
 {
-  "started_at": "2026-08-16T00:28:35",
-  "finished_at": "2026-08-16T00:29:53",
+  "started_at": "2026-08-17T00:27:30",
+  "finished_at": "2026-08-17T00:29:18",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
-  "successful_channels": 9,
+  "successful_channels": 8,
   "total_new": 0,
   "initialized_count": 0,
   "channels": [
@@ -78,12 +78,12 @@
       "id": "graduate_notices",
       "name": "研究生处-通知公告",
       "url": "https://grad.qau.edu.cn/channel/tongzhigonggao",
-      "status": "ok",
-      "http_status": 200,
-      "attempts": 1,
-      "parsed_count": 9,
+      "status": "failed",
+      "http_status": null,
+      "attempts": 2,
+      "parsed_count": 0,
       "new_count": 0,
-      "error": null
+      "error": "ReadTimeout: HTTPSConnectionPool(host='grad.qau.edu.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "id": "network_notices",
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-08-16.md"
+    "archive": "reports/2026-08-17.md"
   }
 }
