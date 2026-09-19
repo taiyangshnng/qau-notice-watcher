@@ -1,11 +1,11 @@
 {
-  "started_at": "2026-09-18T01:44:27",
-  "finished_at": "2026-09-18T01:46:16",
+  "started_at": "2026-09-19T01:49:14",
+  "finished_at": "2026-09-19T01:50:10",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
   "successful_channels": 9,
-  "total_new": 2,
+  "total_new": 4,
   "initialized_count": 0,
   "channels": [
     {
@@ -27,7 +27,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 2,
       "error": null
     },
     {
@@ -47,9 +47,9 @@
       "url": "https://jw.qau.edu.cn/channel/xstz",
       "status": "ok",
       "http_status": 200,
-      "attempts": 2,
+      "attempts": 1,
       "parsed_count": 12,
-      "new_count": 0,
+      "new_count": 1,
       "error": null
     },
     {
@@ -60,7 +60,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 12,
-      "new_count": 0,
+      "new_count": 1,
       "error": null
     },
     {
@@ -69,7 +69,7 @@
       "url": "https://rsc.qau.edu.cn/channel/tzgg1",
       "status": "ok",
       "http_status": 200,
-      "attempts": 2,
+      "attempts": 1,
       "parsed_count": 11,
       "new_count": 0,
       "error": null
@@ -80,7 +80,7 @@
       "url": "https://grad.qau.edu.cn/channel/tongzhigonggao",
       "status": "ok",
       "http_status": 200,
-      "attempts": 2,
+      "attempts": 1,
       "parsed_count": 10,
       "new_count": 0,
       "error": null
@@ -102,9 +102,9 @@
       "url": "https://xgb.qau.edu.cn/channel/zxtz",
       "status": "ok",
       "http_status": 200,
-      "attempts": 2,
+      "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     }
   ],
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-09-18.md"
+    "archive": "reports/2026-09-19.md"
   }
 }
