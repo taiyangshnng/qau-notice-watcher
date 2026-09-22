@@ -1,11 +1,11 @@
 {
-  "started_at": "2026-09-21T01:52:39",
-  "finished_at": "2026-09-21T01:54:23",
+  "started_at": "2026-09-22T02:00:48",
+  "finished_at": "2026-09-22T02:01:54",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
-  "successful_channels": 7,
-  "total_new": 5,
+  "successful_channels": 9,
+  "total_new": 2,
   "initialized_count": 0,
   "channels": [
     {
@@ -16,30 +16,30 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 2,
+      "new_count": 0,
       "error": null
     },
     {
       "id": "youth_notices",
       "name": "校团委-通知公告",
       "url": "https://youth.qau.edu.cn/channel/tongzhigonggao",
-      "status": "failed",
-      "http_status": null,
-      "attempts": 2,
-      "parsed_count": 0,
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
       "new_count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='youth.qau.edu.cn', port=443): Read timed out. (read timeout=10)"
+      "error": null
     },
     {
       "id": "youth_news",
       "name": "校团委-团学信息",
       "url": "https://youth.qau.edu.cn/channel/tuanxuexinxi",
-      "status": "failed",
-      "http_status": null,
-      "attempts": 2,
-      "parsed_count": 0,
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 10,
       "new_count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='youth.qau.edu.cn', port=443): Read timed out. (read timeout=10)"
+      "error": null
     },
     {
       "id": "jw_student",
@@ -49,7 +49,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 12,
-      "new_count": 0,
+      "new_count": 1,
       "error": null
     },
     {
@@ -104,7 +104,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 3,
+      "new_count": 1,
       "error": null
     }
   ],
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-09-21.md"
+    "archive": "reports/2026-09-22.md"
   }
 }
