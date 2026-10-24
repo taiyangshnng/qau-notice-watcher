@@ -1,23 +1,26 @@
 # 青岛农业大学每日通知摘要
 
-生成时间：2026-10-23 10:09:59 北京时间
+生成时间：2026-10-24 10:08:22 北京时间
 今日新增通知总数：3
-活动类通知数量：2
+活动类通知数量：1
 
 ## 学生活动
 
-- 【校团委】[关于举办青岛农业大学“青马工程”2026级团支部书记培训班的通知](https://youth.qau.edu.cn/content/tongzhigonggao/e06a19b37adb4b63ac5203661a124c17)
-  - 日期：2026-10-22
-  - 标签：activity, admin
-  - 对象：student
-- 【学生工作处】[活动预告：学生工作处开展“悦见好时光”大学生心理成长小组活动](https://xgb.qau.edu.cn/content/zxtz/25cb86c995594a4bbd2ebb6b5cf14ce7)
+- 【教务处】[关于举办教材建设专题培训会的通知](https://jw.qau.edu.cn/content/jstz/aa2c0769221149fb8760a4ff36f34e2c)
   - 日期：2026-10-23
-  - 标签：activity
-  - 对象：student
+  - 标签：activity, admin
+  - 对象：teacher
 
-## 其他
+## 教师教学通知
 
-- 【学生工作处】[关于表彰2025-2026学年优秀班主任的决定](https://xgb.qau.edu.cn/content/zxtz/551620110e4b492bbe3f80e08f8adae5)
-  - 日期：2026-10-22
-  - 标签：other
+- 【教务处】[关于公示2026年度山东省教育教学研究课题拟推荐结果的通知](https://jw.qau.edu.cn/content/jstz/a113178416f44030b0244d801d5e6087)
+  - 日期：2026-10-23
+  - 标签：academic, admin
+  - 对象：teacher
+
+## 学校级公告
+
+- 【学生工作处】[关于举办“悦动心灵，聚力同行”心理运动会的通知](https://xgb.qau.edu.cn/content/zxtz/41a888146fc74c69950833d1320596c3)
+  - 日期：2026-10-23
+  - 标签：admin
   - 对象：student
