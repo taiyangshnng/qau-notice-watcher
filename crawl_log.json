@@ -1,11 +1,11 @@
 {
-  "started_at": "2026-11-01T02:46:23",
-  "finished_at": "2026-11-01T02:48:05",
+  "started_at": "2026-11-02T02:54:23",
+  "finished_at": "2026-11-02T02:55:23",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
-  "successful_channels": 7,
-  "total_new": 0,
+  "successful_channels": 9,
+  "total_new": 2,
   "initialized_count": 0,
   "channels": [
     {
@@ -45,23 +45,23 @@
       "id": "jw_student",
       "name": "教务处-学生通知",
       "url": "https://jw.qau.edu.cn/channel/xstz",
-      "status": "failed",
-      "http_status": null,
-      "attempts": 2,
-      "parsed_count": 0,
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 12,
       "new_count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='jw.qau.edu.cn', port=443): Read timed out. (read timeout=10)"
+      "error": null
     },
     {
       "id": "jw_teacher",
       "name": "教务处-教师通知",
       "url": "https://jw.qau.edu.cn/channel/jstz",
-      "status": "failed",
-      "http_status": null,
-      "attempts": 2,
-      "parsed_count": 0,
-      "new_count": 0,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='jw.qau.edu.cn', port=443): Read timed out. (read timeout=10)"
+      "status": "ok",
+      "http_status": 200,
+      "attempts": 1,
+      "parsed_count": 12,
+      "new_count": 2,
+      "error": null
     },
     {
       "id": "hr_notices",
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-11-01.md"
+    "archive": "reports/2026-11-02.md"
   }
 }
