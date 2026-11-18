@@ -1,11 +1,11 @@
 {
-  "started_at": "2026-11-17T05:22:28",
-  "finished_at": "2026-11-17T05:23:25",
+  "started_at": "2026-11-18T04:49:56",
+  "finished_at": "2026-11-18T04:51:08",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
-  "successful_channels": 9,
-  "total_new": 4,
+  "successful_channels": 1,
+  "total_new": 0,
   "initialized_count": 0,
   "channels": [
     {
@@ -16,96 +16,96 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     },
     {
       "id": "youth_notices",
       "name": "校团委-通知公告",
       "url": "https://youth.qau.edu.cn/channel/tongzhigonggao",
-      "status": "ok",
-      "http_status": 200,
+      "status": "http_error",
+      "http_status": 403,
       "attempts": 1,
-      "parsed_count": 10,
+      "parsed_count": 0,
       "new_count": 0,
-      "error": null
+      "error": "HTTP 403"
     },
     {
       "id": "youth_news",
       "name": "校团委-团学信息",
       "url": "https://youth.qau.edu.cn/channel/tuanxuexinxi",
-      "status": "ok",
-      "http_status": 200,
+      "status": "http_error",
+      "http_status": 403,
       "attempts": 1,
-      "parsed_count": 10,
-      "new_count": 1,
-      "error": null
+      "parsed_count": 0,
+      "new_count": 0,
+      "error": "HTTP 403"
     },
     {
       "id": "jw_student",
       "name": "教务处-学生通知",
       "url": "https://jw.qau.edu.cn/channel/xstz",
-      "status": "ok",
-      "http_status": 200,
+      "status": "http_error",
+      "http_status": 403,
       "attempts": 1,
-      "parsed_count": 12,
-      "new_count": 1,
-      "error": null
+      "parsed_count": 0,
+      "new_count": 0,
+      "error": "HTTP 403"
     },
     {
       "id": "jw_teacher",
       "name": "教务处-教师通知",
       "url": "https://jw.qau.edu.cn/channel/jstz",
-      "status": "ok",
-      "http_status": 200,
+      "status": "http_error",
+      "http_status": 403,
       "attempts": 1,
-      "parsed_count": 12,
-      "new_count": 1,
-      "error": null
+      "parsed_count": 0,
+      "new_count": 0,
+      "error": "HTTP 403"
     },
     {
       "id": "hr_notices",
       "name": "人事处-通知公告",
       "url": "https://rsc.qau.edu.cn/channel/tzgg1",
-      "status": "ok",
-      "http_status": 200,
+      "status": "http_error",
+      "http_status": 403,
       "attempts": 1,
-      "parsed_count": 11,
+      "parsed_count": 0,
       "new_count": 0,
-      "error": null
+      "error": "HTTP 403"
     },
     {
       "id": "graduate_notices",
       "name": "研究生处-通知公告",
       "url": "https://grad.qau.edu.cn/channel/tongzhigonggao",
-      "status": "ok",
-      "http_status": 200,
+      "status": "http_error",
+      "http_status": 502,
       "attempts": 1,
-      "parsed_count": 10,
+      "parsed_count": 0,
       "new_count": 0,
-      "error": null
+      "error": "HTTP 502"
     },
     {
       "id": "network_notices",
       "name": "网络信息管理处-通知公告",
       "url": "https://nc.qau.edu.cn/channel/tzgg",
-      "status": "ok",
-      "http_status": 200,
+      "status": "http_error",
+      "http_status": 502,
       "attempts": 1,
-      "parsed_count": 10,
+      "parsed_count": 0,
       "new_count": 0,
-      "error": null
+      "error": "HTTP 502"
     },
     {
       "id": "student_affairs",
       "name": "学生工作处-通知",
       "url": "https://xgb.qau.edu.cn/channel/zxtz",
-      "status": "ok",
-      "http_status": 200,
+      "status": "http_error",
+      "http_status": 502,
       "attempts": 1,
-      "parsed_count": 10,
+      "parsed_count": 0,
       "new_count": 0,
-      "error": null
+      "error": "HTTP 502"
     }
   ],
   "mail": {
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-11-17.md"
+    "archive": "reports/2026-11-18.md"
   }
 }
