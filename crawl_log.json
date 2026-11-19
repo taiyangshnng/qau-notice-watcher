@@ -1,10 +1,10 @@
 {
-  "started_at": "2026-11-18T04:49:56",
-  "finished_at": "2026-11-18T04:51:08",
+  "started_at": "2026-11-19T04:41:00",
+  "finished_at": "2026-11-19T04:43:54",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
-  "successful_channels": 1,
+  "successful_channels": 4,
   "total_new": 0,
   "initialized_count": 0,
   "channels": [
@@ -23,89 +23,89 @@
       "id": "youth_notices",
       "name": "校团委-通知公告",
       "url": "https://youth.qau.edu.cn/channel/tongzhigonggao",
-      "status": "http_error",
-      "http_status": 403,
-      "attempts": 1,
+      "status": "failed",
+      "http_status": null,
+      "attempts": 2,
       "parsed_count": 0,
       "new_count": 0,
-      "error": "HTTP 403"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='youth.qau.edu.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "id": "youth_news",
       "name": "校团委-团学信息",
       "url": "https://youth.qau.edu.cn/channel/tuanxuexinxi",
-      "status": "http_error",
-      "http_status": 403,
-      "attempts": 1,
+      "status": "failed",
+      "http_status": null,
+      "attempts": 2,
       "parsed_count": 0,
       "new_count": 0,
-      "error": "HTTP 403"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='youth.qau.edu.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "id": "jw_student",
       "name": "教务处-学生通知",
       "url": "https://jw.qau.edu.cn/channel/xstz",
-      "status": "http_error",
-      "http_status": 403,
-      "attempts": 1,
+      "status": "failed",
+      "http_status": null,
+      "attempts": 2,
       "parsed_count": 0,
       "new_count": 0,
-      "error": "HTTP 403"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='jw.qau.edu.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "id": "jw_teacher",
       "name": "教务处-教师通知",
       "url": "https://jw.qau.edu.cn/channel/jstz",
-      "status": "http_error",
-      "http_status": 403,
-      "attempts": 1,
+      "status": "failed",
+      "http_status": null,
+      "attempts": 2,
       "parsed_count": 0,
       "new_count": 0,
-      "error": "HTTP 403"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='jw.qau.edu.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "id": "hr_notices",
       "name": "人事处-通知公告",
       "url": "https://rsc.qau.edu.cn/channel/tzgg1",
-      "status": "http_error",
-      "http_status": 403,
-      "attempts": 1,
+      "status": "failed",
+      "http_status": null,
+      "attempts": 2,
       "parsed_count": 0,
       "new_count": 0,
-      "error": "HTTP 403"
+      "error": "ReadTimeout: HTTPSConnectionPool(host='rsc.qau.edu.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "id": "graduate_notices",
       "name": "研究生处-通知公告",
       "url": "https://grad.qau.edu.cn/channel/tongzhigonggao",
-      "status": "http_error",
-      "http_status": 502,
+      "status": "ok",
+      "http_status": 200,
       "attempts": 1,
-      "parsed_count": 0,
+      "parsed_count": 10,
       "new_count": 0,
-      "error": "HTTP 502"
+      "error": null
     },
     {
       "id": "network_notices",
       "name": "网络信息管理处-通知公告",
       "url": "https://nc.qau.edu.cn/channel/tzgg",
-      "status": "http_error",
-      "http_status": 502,
+      "status": "ok",
+      "http_status": 200,
       "attempts": 1,
-      "parsed_count": 0,
+      "parsed_count": 10,
       "new_count": 0,
-      "error": "HTTP 502"
+      "error": null
     },
     {
       "id": "student_affairs",
       "name": "学生工作处-通知",
       "url": "https://xgb.qau.edu.cn/channel/zxtz",
-      "status": "http_error",
-      "http_status": 502,
+      "status": "ok",
+      "http_status": 200,
       "attempts": 1,
-      "parsed_count": 0,
+      "parsed_count": 10,
       "new_count": 0,
-      "error": "HTTP 502"
+      "error": null
     }
   ],
   "mail": {
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-11-18.md"
+    "archive": "reports/2026-11-19.md"
   }
 }
