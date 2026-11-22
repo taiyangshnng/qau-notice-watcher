@@ -1,11 +1,11 @@
 {
-  "started_at": "2026-11-21T04:26:25",
-  "finished_at": "2026-11-21T04:27:26",
+  "started_at": "2026-11-22T03:40:22",
+  "finished_at": "2026-11-22T03:41:16",
   "init_mode": false,
   "preview_mode": false,
   "total_channels": 9,
   "successful_channels": 9,
-  "total_new": 1,
+  "total_new": 0,
   "initialized_count": 0,
   "channels": [
     {
@@ -104,7 +104,7 @@
       "http_status": 200,
       "attempts": 1,
       "parsed_count": 10,
-      "new_count": 1,
+      "new_count": 0,
       "error": null
     }
   ],
@@ -118,6 +118,6 @@
   },
   "reports": {
     "latest": "daily.md",
-    "archive": "reports/2026-11-21.md"
+    "archive": "reports/2026-11-22.md"
   }
 }
